@@ -1,11 +1,13 @@
 {
+	"name": "djtommek/business-card",
+	"description": "PHP generator of business card for tomas.palider.cz",
 	"require": {
 		"tracy/tracy": "v2.7.3",
-		"unreal4u/telegram-api": "~3.4",
 		"ext-json": "*",
 		"ext-curl": "*",
 		"ext-mbstring": "*",
-		"ext-pdo": "*"
+		"ext-pdo": "*",
+		"endroid/qr-code": "^4.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "^9",
